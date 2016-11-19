@@ -60,7 +60,7 @@
         .style("font-size", 10)
         .style("font-family", "monospace");
       
-// la partie modifiée
+// la partie modifiée...
 
        svg.selectAll(".value").data(data).enter()
            .append("circle")
