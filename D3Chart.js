@@ -93,7 +93,7 @@
               d3.select(this).style("fill","black")
               svg.selectAll("#line, #tooltip").data(data).remove()
             });       
-//
+// Fin de la partie modifiée
 
       g.selectAll(".value").data([data[data.length -1]]).enter()
        .append("text")
